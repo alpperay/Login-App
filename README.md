@@ -43,9 +43,7 @@ npx expo start
 2) assets/key.png: Giriş ekranında kullanılan görsel.
 3) styles: Projeye özel stil düzenlemeleri.
 
-# Katkı
-
-Bu projeye katkı sağlamak isterseniz, lütfen aşağıdaki adımları takip edin:
+# Katkıda Bulunma
 
 1) Bu repository'yi fork'layın.
 2) Pull request açın.
