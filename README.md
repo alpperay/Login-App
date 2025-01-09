@@ -1,4 +1,4 @@
-# React Native Login Page
+# React Native Login App
 Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı tasarımını içermektedir. Kullanıcılar, e-posta ve şifre bilgilerini girerek giriş yapabilirler.
 
 # Özellikler
