@@ -35,7 +35,7 @@ npx expo start
 1) Uygulama açıldığında, kullanıcıdan bir e-posta ve şifre girmesi istenecektir.
 2) Eğer her iki alan da doldurulmazsa, kullanıcıya bir uyarı gösterilir.
 3) Giriş yapıldıktan sonra, girdiğiniz e-posta ve şifreyi ekranda gösterecek bir alert kutusu açılır.
-4) Giriş butonunun rengi, butona basılıp basılmadığına göre değişir. ( blue / gray )
+4) Giriş butonunun rengi, butona basılıp basılmadığına göre değişir. ( mavi -> gri )
 
 # Proje Yapısı
 
