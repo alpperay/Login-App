@@ -39,9 +39,10 @@ npx expo start
 
 # Proje Yapısı
 
-1) App.js: Uygulamanın ana bileşeni ve giriş ekranı.
+1) App.js: Uygulamanın ana bileşeni
 2) assets/key.png: Giriş ekranında kullanılan görsel.
-3) styles: Projeye özel stil düzenlemeleri.
+3) styles.js: Giriş ekranının oluştuğu ve style özelliklerinin uygulandığı dosya.
+
 
 # Katkıda Bulunma
 
