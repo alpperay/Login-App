@@ -4,10 +4,9 @@ Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı 
 # Özellikler
 
 1) E-posta ve şifre girişi
-2) Şifreyi gizleyebilme (secureTextEntry)
-3) Basit form doğrulaması (alanlar boş bırakılırsa kullanıcı uyarılır)
-4) Stilize edilmiş buton ve input alanları
-5) React Native useState Hook'u kullanımı
+2) Basit form doğrulaması (alanlar boş bırakılırsa kullanıcı uyarılır)
+3) Stilize edilmiş buton ve input alanları
+4) React Native useState Hook'u kullanımı
 
 # Teknolojiler
 
