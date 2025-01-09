@@ -17,7 +17,7 @@ Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı 
 # Gereksinimler
 1) Node.js (en son LTS sürümü)
 2) React Native Expo
-3) Yarn veya npx
+3) npx veya yarn
 
 # Kurulum
 
