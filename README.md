@@ -45,6 +45,7 @@ npx expo start
 
 # Katkıda Bulunma
 
-1) Bu repository'yi fork'layın.
-2) Pull request açın.
+1) GitHub reposunu fork edin,
+2) Kendi değişikliklerinizi yapın ve pull request gönderin.
+
 
