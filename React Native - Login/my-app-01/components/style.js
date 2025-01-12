@@ -25,6 +25,7 @@ const Style = () => {
   };
 
   return (
+   <View style={styles.outline}>
     <View style={styles.box}>
       <Image
         style={styles.ImageStyle}
@@ -63,15 +64,17 @@ const Style = () => {
         ]}
         onPress={handlePress}
       >
-        <Text style={styles.buttonTextStyle}>Login</Text>
-      </TouchableOpacity>
-      <Text style={styles.line}>________________________</Text>
-      <Text style={styles.accountStyle}>
-        Don't you have an account? Register.
-      </Text>
-      <Text style={styles.forgotPasswordStyle}>Forgot your password?</Text>
-      <Text style={styles.line}>________________________</Text>
+        <View style={styles.rowContainer}>
+          <TouchableOpacity>
+            <Text style={styles.forgotPassword}>Forgot Password?</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity>
+            <Text style={styles.signUpStyle}>Sign Up!</Text>
+          </TouchableOpacity>
+        </View>
     </View>
+</View>
   );
 };
 
@@ -100,28 +103,16 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   buttonStyle: {
-    width: 100,
-    height: 30,
+    width: 200,
+    height: 35,
     borderRadius: 50,
+    paddingTop:3,
   },
   buttonTextStyle: {
     textAlign: "center",
     fontWeight: "bold",
     color: "white",
     fontSize: 17,
-  },
-  accountStyle: {
-    color: "blue",
-    fontWeight: "bold",
-    fontStyle: "italic",
-    margin: 10,
-    cursor: "pointer",
-  },
-  forgotPasswordStyle: {
-    color: "blue",
-    fontWeight: "bold",
-    fontStyle: "italic",
-    cursor: "pointer",
   },
   ImageStyle: {
     width: 150,
@@ -130,7 +121,30 @@ const styles = StyleSheet.create({
     borderColor: "blue",
     borderRadius: 300,
   },
-  line: {
+  rowContainer: {
+    width: "90%",
+    justifyContent: "space-between",
+    flexDirection: "row",
+    marginVertical: 15,
+    marginRight: 15,
+  },
+  signUpStyle: {
+    fontWeight: "bold",
     color: "blue",
+  },
+  forgotPassword: {
+    fontWeight: "bold",
+    color: "blue",
+  },
+  outline: {
+    borderWidth: 2,
+    width: 400,
+    height: 600,
+    alignItems: "center",
+    justifyContent: "center",
+    borderTopLeftRadius: 170,
+    borderBottomRightRadius: 170,
+    borderBottomLeftRadius: 100,
+    borderTopRightRadius: 100,
   },
 });
