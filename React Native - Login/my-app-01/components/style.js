@@ -64,6 +64,8 @@ const Style = () => {
         ]}
         onPress={handlePress}
       >
+        <Text style={styles.buttonTextStyle}>Login</Text>
+        </TouchableOpacity>
         <View style={styles.rowContainer}>
           <TouchableOpacity>
             <Text style={styles.forgotPassword}>Forgot Password?</Text>
