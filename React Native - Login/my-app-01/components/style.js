@@ -35,8 +35,8 @@ const Style = () => {
       <Text style={styles.textStyle}>Email</Text>
       <TextInput
         style={styles.textInputStyle}
-        placeholder="example@gmail.com"
-        placeholderTextColor={"black"}
+        placeholder="youremail@gmail.com"
+        placeholderTextColor={"gray"}
         value={email}
         onChangeText={setEmail}
         maxLength={30}
@@ -47,14 +47,13 @@ const Style = () => {
       <Text style={styles.textStyle}>Password</Text>
       <TextInput
         style={styles.textInputStyle}
-        placeholder="Enter your Password!"
-        placeholderTextColor={"black"}
+        placeholder="**********"
+        placeholderTextColor={"gray"}
         secureTextEntry={true}
         value={password}
         onChangeText={setPassword}
         maxLength={10}
-        inputMode="text"
-        keyboardType="visible-password"
+        keyboardType="default"
       />
 
       <TouchableOpacity
