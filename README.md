@@ -43,6 +43,18 @@ npx expo start
 2) assets/key.png: Giriş ekranında kullanılan görsel.
 3) styles.js: Giriş ekranının oluştuğu ve style özelliklerinin uygulandığı dosya.
 
+# Ekran Çıktısı 
+
+## Ana Ekran
+![login - app 1 sc](https://github.com/user-attachments/assets/132262c2-0ca5-485e-8277-56c9d205ad83)
+
+## Login -> Alert
+![login - app 2 sc ](https://github.com/user-attachments/assets/0b618417-ce1f-49e5-97c7-adafffdb8751)
+
+## Login -> Email & Password
+
+![login-app 3 schoots](https://github.com/user-attachments/assets/f46732de-836c-4079-96b5-1a07fcb8ac68)
+
 
 # Katkıda Bulunma
 
