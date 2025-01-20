@@ -46,9 +46,11 @@ npx expo start
 # Ekran Çıktısı 
 
 ## • Ana Ekran
-![login - app 1 sc](https://github.com/user-attachments/assets/132262c2-0ca5-485e-8277-56c9d205ad83)
+
+![scshoots -1](https://github.com/user-attachments/assets/1c29d3fa-dc0f-4a0f-9e55-48ccb3e434c9)
 
 ## • Login -> Alert
+
 ![login - app 2 sc ](https://github.com/user-attachments/assets/0b618417-ce1f-49e5-97c7-adafffdb8751)
 
 ## • Login -> Alert -> Email & Password
