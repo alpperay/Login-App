@@ -24,6 +24,7 @@ Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı 
 ## Kurulum
 
 1. Projeyi klonlayın:
-   ```bash
-   git clone https://github.com/kullanici_adiniz/login-app.git
+```bash
+git clone https://github.com/kullanici_adiniz/login-app.git
+```
    
