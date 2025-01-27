@@ -33,7 +33,7 @@ cd my-app-01
 ```bash
 npm install veya yarn install
 ```
-6) Projeyi başlatın:
+5) Projeyi başlatın:
 ```bash
 npx expo start
 ```
