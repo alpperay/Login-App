@@ -29,11 +29,11 @@ git clone https://github.com/kullanici_adiniz/login-app.git
 ```bash
 cd my-app-01
 ```
-4) Gerekli bağımlılıkları yükleyin:
+3) Gerekli bağımlılıkları yükleyin:
 ```bash
 npm install veya yarn install
 ```
-5) Projeyi başlatın:
+4) Projeyi başlatın:
 ```bash
 npx expo start
 ```
