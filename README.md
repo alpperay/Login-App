@@ -23,7 +23,7 @@ Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı 
 
 1) Projeyi klonlayın:
 ```bash
-git clone https://github.com/kullanici_adiniz/login-app.git
+git clone <repo-url>
 ```
 2) Proje dizinine gidin:
 ```bash
