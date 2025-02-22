@@ -1,73 +1,70 @@
-# React Native Login App
-Bu proje, React Native kullanarak basit bir kullanıcı girişi (login) ekranı tasarımını içermektedir. Kullanıcılar, e-posta ve şifre bilgilerini girerek giriş yapabilirler.
+## React Native Login Ekranı
 
-## Özellikler
+Bu proje, React Native kullanılarak geliştirilen basit bir giriş ekranını içermektedir. Kullanıcı, e-posta ve şifre girerek giriş yapabilir veya alternatif giriş yöntemlerini kullanabilir.
 
-1) E-posta ve şifre girişi
-2) Basit form doğrulaması (alanlar boş bırakılırsa kullanıcı uyarılır)
-3) Stilize edilmiş buton ve input alanları
-4) React Native useState Hook'u kullanımı
+### Kullanılan Teknolojiler
+- React Native
+- React Hooks (useState)
+- React Native Bileşenleri (View, Text, TextInput, TouchableOpacity, Image, Alert)
+- StyleSheet ile stillendirme
 
-## Teknolojiler
+### Özellikler
+- Kullanıcıdan e-posta ve şifre bilgileri alınır.
+- "Login" butonuna tıklanarak giriş işlemi simüle edilir.
+- "Forgot Password?" ve "Sign Up!" butonları eklenmiştir.
+- Google, Facebook, Microsoft ve telefon ile giriş yapma seçenekleri bulunmaktadır.
+- Butona tıklanınca butonun rengi değişmektedir.
+- Kullanıcı girişi boş bıraktığında uyarı mesajı verilir.
 
-1) React Native - Kullanıcı arayüzü geliştirmek için
-2) useState Hook - State yönetimi için
-3) StyleSheet - React Native stil düzenlemeleri için
-
-## Gereksinimler
-1) Node.js (en son LTS sürümü)
-2) React Native Expo
-3) npx veya yarn
-
-## Kurulum
-
-1) Projeyi klonlayın:
-```bash
-git clone <repo-url>
+### Dosya Yapısı
 ```
-2) Proje dizinine gidin:
-```bash
-cd my-app-01
-```
-3) Gerekli bağımlılıkları yükleyin:
-```bash
-npm install veya yarn install
-```
-4) Projeyi başlatın:
-```bash
-npx expo start
+project-folder/
+│── assets/
+│   ├── images/
+│   │   ├── google-icon.png
+│   │   ├── facebook-icon.png
+│   │   ├── microsoft-icon.png
+│   │   ├── telefon-icon.png
+│── components/
+│   ├── Login.js
+│── App.js
+│── package.json
+│── README.md
 ```
 
-## Kullanım
+### Kurulum ve Çalıştırma
+1. Projeyi klonlayın:
+   ```sh
+   git clone <repository-url>
+   cd project-folder
+   ```
+2. Gerekli bağımlılıkları yükleyin:
+   ```sh
+   npm install
+   ```
+3. Uygulamayı çalıştırın:
+   ```sh
+   npx expo start
+   ```
 
-1) Uygulama açıldığında, kullanıcıdan bir e-posta ve şifre girmesi istenecektir.
-2) Eğer her iki alan da doldurulmazsa, kullanıcıya bir uyarı gösterilir.
-3) Giriş yapıldıktan sonra, girdiğiniz e-posta ve şifreyi ekranda gösterecek bir alert kutusu açılır.
-4) Giriş butonunun rengi, butona basılıp basılmadığına göre değişir. ( mavi -> gri )
+### Geliştirme Notları
 
-## Proje Yapısı
+- Proje Expo kullanılarak çalıştırılabilir.
+- UI tasarımı için temel React Native bileşenleri kullanılmıştır.
+- Kullanıcı girişi doğrulama ve backend entegrasyonu eklenebilir.
+- Stil geliştirmeleri yapılarak daha modern bir görünüm sağlanabilir.
 
-1) App.tsx: Uygulamanın ana bileşeni
-2) assets/key.png: Giriş ekranında kullanılan görsel.
-3) styles.js: Giriş ekranının oluştuğu ve style özelliklerinin uygulandığı dosya.
+### Ekran Görüntüsü
+Uygulama ekranı aşağıdaki gibidir:
 
-## Ekran Çıktısı 
+![Login Ekranı](./assets/images/screenshot.png)
 
-## • Ana Ekran
+### Yazar
 
-![scshoots -1](https://github.com/user-attachments/assets/1c29d3fa-dc0f-4a0f-9e55-48ccb3e434c9)
-
-## • Login -> Alert
-
-![login - app 2 sc ](https://github.com/user-attachments/assets/0b618417-ce1f-49e5-97c7-adafffdb8751)
-
-## • Login -> Alert -> Email & Password
-
-![login-app 3 schoots](https://github.com/user-attachments/assets/f46732de-836c-4079-96b5-1a07fcb8ac68)
-
+Alp Eray Taşçı
 
 ## Katkıda Bulunma
 
-1) GitHub reposunu fork edin,
-2) Kendi değişikliklerinizi yapın ve pull request gönderin.
+1. Projeyi fork edin,
+2. Değişikliklerinizi yapın ve pull request gönderin.
 
