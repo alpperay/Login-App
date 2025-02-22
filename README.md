@@ -34,15 +34,18 @@ project-folder/
 
 ### Kurulum ve Çalıştırma
 1. Projeyi klonlayın:
+
    ```sh
    git clone <repository-url>
    cd project-folder
    ```
 2. Gerekli bağımlılıkları yükleyin:
+
    ```sh
    npm install
    ```
 3. Uygulamayı çalıştırın:
+
    ```sh
    npx expo start
    ```
@@ -57,7 +60,9 @@ project-folder/
 ### Ekran Görüntüsü
 Uygulama ekranı aşağıdaki gibidir:
 
-![Login Ekranı](./assets/images/screenshot.png)
+![Login Ekranı](https://github.com/user-attachments/assets/39693f5e-510f-43c5-aa7b-c4a2eb46e992)
+
+
 
 ### Yazar
 
